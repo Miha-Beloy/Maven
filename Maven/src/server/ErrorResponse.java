@@ -1,5 +1,6 @@
 package server;
 
+
 import java.util.List;
 
 public class ErrorResponse {
@@ -11,6 +12,7 @@ public class ErrorResponse {
     public ErrorResponse(String error, List<String> details) {
         this.error = error;
         this.details = details;
+
     }
 
     public String getError() { return error; }
